@@ -1,0 +1,53 @@
+Sep. 6, 2016
+	- Started project
+	- Added basic functionality
+
+Sep. 13, 2016
+	- Added hardness array
+	- Added load capability
+
+Sep. 14, 2016
+	- Added save capability
+	- Fixed bug in load function which created
+	    a seg fault if a large number of rooms were attempted to load
+	    
+Sep. 20, 2016
+	- Added non tunneling monster pathfinding
+
+Sep. 21, 2016
+	- Added tunneling monster pathfinding
+	
+Sep. 28, 2016
+	- Fixed bug where infinite loop would happen if two rooms were disconnected
+	- Added random PC placement
+	
+Oct. 4, 2016
+	- Added monster struct and attributes
+	
+Oct. 5, 2016
+	- Added animation and monster behavior
+
+Oct. 10, 2016
+	- Implemented ncurses
+	- Added user input to move PC
+
+Oct. 14, 2016
+	- Added monster locations menu
+
+Oct. 19, 2016
+	- Added random staircase placement
+	- Added ability to generate new dungeon when a staircase is taken
+
+Nov. 1, 2016
+	- Converted entire project to C++
+	
+Nov. 2, 2016
+	- Implemented text file parsing for monster descriptions
+	
+Nov. 8, 2016
+	- Fixed bug where parser wouldn't function on pyrite
+	
+Nov. 9, 2016
+	- Added object parser
+	- Added classes to create instances of monsters and objects based on parsed templates
+	- Added color functionality

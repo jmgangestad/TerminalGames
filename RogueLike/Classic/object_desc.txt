@@ -1,0 +1,36 @@
+RLG327 OBJECT DESCRIPTION 1
+
+BEGIN OBJECT
+NAME Running Shoes
+TYPE BOOTS
+COLOR GREEN
+WEIGHT 1+0d1
+HIT 0+0d1
+DAM 5+0d1
+ATTR 0+0d1
+VAL 9+1d6
+DODGE 5+0d1
+DEF 1+0d1
+SPEED 30+0d1
+DESC
+Some totally sweet kicks.  They make you run faster than Sonic!
+.
+END
+
+
+BEGIN OBJECT
+NAME Fast armor
+TYPE ARMOR
+COLOR GREEN
+WEIGHT 1+0d1
+HIT 0+0d1
+DAM 5+0d1
+ATTR 0+0d1
+VAL 9+1d6
+DODGE 5+0d1
+DEF 1+0d1
+SPEED -80+0d1
+DESC
+Some totally sweet kicks.  They make you run faster than Sonic!
+.
+END

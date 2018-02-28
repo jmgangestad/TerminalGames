@@ -1,0 +1,45 @@
+Important Notes:
+	      * I did not create the ASCII art for this project.  All art came from Christopher Johnson's ASCII Art Collection and
+		can be found at http://chris.com/ascii/
+	      * If you are being caught too quickly by fast monsters use "p" to pause all monsters
+	      * If you are stuck in a repeated attack loop use "p" in battle to disable the monster
+	      * The format for monster_desct.txt and object_desc.txt files have been modified and must be left in the same folder
+		as the program.  The monster and object parsers will no longer work with other description files
+
+
+Project Description: For my final assignment I have extended the roguelike game we have been developing all semester. The main change
+		    I have made is to the combat system.  For combat the player will now fight one-on-one with enemies in a Pokemon
+		    style battle.
+
+Added Controls: 
+	      * All default controls still exist
+	      * Because some monsters are extremely fast compared to the player without equipment it is possible for
+		the player to be caught in a long/frustrating loop of being attacked 
+	      * Pressing the "p" key on the map will pause the monsters so that the player can move freely and collect items
+	      * Pressing the "p" key in battle will disable the monster (set its speed to 1) so that the player can
+		break out of a repeated attack loop
+	      * Arrow keys, enter, and escape are used to navigate through menus during battle
+
+Features/changes:
+		* Pokemon style battle sequence
+		* If a monster attempts to move into the space occupied by the PC, the
+		  monster will attack first during combat
+		* If the player attempts to move into the space occupied by a monster,
+		  the player will attack first during combat
+		* When inspecting inventory/equipment the item stats are displayed
+		* When equipping/unequipping items, the changes to player stats are displayed
+		* Items can be inspected and equipped within battles
+		* DEF and HIT stats are now applied to the player
+		* Dodge and weight stats are displayed, but unfortunately are not yet implemented
+		* A data file "PC_depictions" has been added which contain the ASCII art for the player rendering
+		* Inspect and display item commands have been combined
+		* Inspect and display equipment commands have been combined
+
+Running the program:
+		  * The source code is found in "dungeon.cpp"
+		  * The priority que was made by Professor Sheaffer for assignment 1.01 and the source code is found
+		    in "heap.c" with "heap.h" and "macros.h" as header files
+		  * Source code may be compiled using the default makefile command
+		  * The executable file "dungeon" may then be run
+		  * The player wins if all monsters on the current dungeon level are killed
+	

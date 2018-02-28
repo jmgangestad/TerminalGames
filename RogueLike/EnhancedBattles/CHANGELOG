@@ -1,0 +1,101 @@
+Sep. 6, 2016
+	- Started project
+	- Added basic functionality
+
+Sep. 13, 2016
+	- Added hardness array
+	- Added load capability
+
+Sep. 14, 2016
+	- Added save capability
+	- Fixed bug in load function which created
+	    a seg fault if a large number of rooms were attempted to load
+	    
+Sep. 20, 2016
+	- Added non tunneling monster pathfinding
+
+Sep. 21, 2016
+	- Added tunneling monster pathfinding
+	
+Sep. 28, 2016
+	- Fixed bug where infinite loop would happen if two rooms were disconnected
+	- Added random PC placement
+	
+Oct. 4, 2016
+	- Added monster struct and attributes
+	
+Oct. 5, 2016
+	- Added animation and monster behavior
+
+Oct. 10, 2016
+	- Implemented ncurses
+	- Added user input to move PC
+
+Oct. 14, 2016
+	- Added monster locations menu
+
+Oct. 19, 2016
+	- Added random staircase placement
+	- Added ability to generate new dungeon when a staircase is taken
+
+Nov. 1, 2016
+	- Converted entire project to C++
+	
+Nov. 2, 2016
+	- Implemented text file parsing for monster descriptions
+	
+Nov. 8, 2016
+	- Fixed bug where parser wouldn't function on pyrite
+	
+Nov. 9, 2016
+	- Added object parser
+	- Added classes to create instances of monsters and objects based on parsed templates
+	- Added color functionality
+
+Nov. 12, 2016
+	- Made it possible to drop and pick up items
+
+Nov. 14, 2016
+	- Added ability to equip items and destroy them
+	
+Nov. 16, 2016
+	- Added ability to inspect items
+	- Updated combat
+	- Added item stat bonuses to PC
+	
+Nov. 17, 2016
+	- Fixed bug in item speed stat effects
+	- Added battle opening sequence animation
+	- Added ASCII art for a few monsters to test with
+
+Nov. 19, 2016
+	- Added ASCII art for PC to test with
+	- Added parser for PC ASCII art so that multiple depictions of PC are possible
+
+Nov. 20, 2016
+	- Added render area for monsters
+	- Added HP bars for PC and monsters
+	- Added base menu during battle
+
+Nov. 21, 2016
+	- Added render area for PC
+	- Added items sub menu
+	- Added ability to equip items during battle
+
+Nov. 22, 2016
+	- Added stats display while equipping items
+	- Added ability to inspect inventory during battle
+	- Added stats display while inspecting inventory
+
+Nov. 25, 2016
+	- Added ability to unequip items during battle
+	- Added ability to inspect equipment during battle
+	- Added stats display for unequipping items/inspecting equipment
+	- Added HIT and DEF attribute effects to PC
+
+Nov. 27, 2016
+	- Added more ASCII art for monsters
+
+Nov. 30, 2016
+	- Added more ASCII art for PC
+	- Adjusted item and monster stats

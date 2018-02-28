@@ -1,0 +1,32 @@
+Important Notes:
+	* The item and monster parsers I'm using don't do much error checking
+	* I removed fog of war functionality this week since it was difficult to tell 
+	  if monsters and items were being rendered correctly with the fog on
+
+Running the program:
+	* The source code is found in "dungeon.cpp"
+	* The priority que was made by Professor Sheaffer for assignment 1.01 and the source code is found
+	  in "heap.c" with "heap.h" and "macros.h" as header files
+	* Source code may be compiled using the default makefile command
+	* The executable file "dungeon" may then be run
+	* The program will open the text files "monster_desc.txt" and "object_desc.txt"
+	  stored in the same default folder as the dungeon save file from previous assignments
+	* It will then parse the monster descriptions and objects from the files and create instances of monsters/objects based on the templates
+	* The game will then proceed as it normally would
+	
+Specifications met:
+	* Monster and object templates are parsed from text files
+	* Monster and object instances are generated from a randomly selected template
+	* Objects are now placed in the dungeon
+	* Monsters and items are re-generated when going to a new floor
+	* Monsters and items are rendered in color
+
+Important functions:
+	* parse_monsters(): Parses the monsters from the text file
+	* parse_objects(): Parses the objects from the text file
+	* deallocate_parsed_monsters(): Frees all allocated memory associated with the monster/object parsing
+
+
+Structures:
+	* Monster and item templates are stored in their own classes
+	* Item instances are stored in their own class

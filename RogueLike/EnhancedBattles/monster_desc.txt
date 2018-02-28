@@ -1,0 +1,490 @@
+RLG327 MONSTER DESCRIPTION 1
+
+
+BEGIN MONSTER
+NAME Green Dragon
+SYMB D
+COLOR GREEN
+DESC
+A green dragon.  Pretty scary if you've never seen a dragon before.
+.
+SPEED 20+2d5
+DEPICTION
+            ______________             
+      ,===:'.,            `-._         
+           `:.`---.__         `-._     
+             `:.     `--.         `.   
+               \.        `.         `. 
+        (,,(,   \.         `.   ____,-.
+    (,'     `/   \.   ,--.___`.'       
+,  ,'  ,--.  `,   \.;'         `       
+ `{D, {    \  :    \;                  
+   V,,'    /  /    //                  
+   j;;    /  ,' ,-//.    ,---.      ,  
+   \;'   /  ,' /  _  \  /  _  \   ,'/  
+         \   `'  / \  `'  / \  `.' /   
+          `.___,'   `.__,'   `.__,'    
+                                       
+                                       
+                                       
+                                       
+                                       
+DEPIC_END
+DAM 10+12d3
+HP 200+50d6
+ABIL SMART
+END
+
+BEGIN MONSTER
+NAME Yellow Dragon
+SYMB D
+COLOR YELLOW
+DESC
+A yellow dragon, it looks scary.  Scarier than the green dragon for sure, 
+but not quite as scary as a red dragon would be.
+.
+SPEED 30+2d5
+DEPICTION
+            ______________             
+      ,===:'.,            `-._         
+           `:.`---.__         `-._     
+             `:.     `--.         `.   
+               \.        `.         `. 
+        (,,(,   \.         `.   ____,-.
+    (,'     `/   \.   ,--.___`.'       
+,  ,'  ,--.  `,   \.;'         `       
+ `{D, {    \  :    \;                  
+   V,,'    /  /    //                  
+   j;;    /  ,' ,-//.    ,---.      ,  
+   \;'   /  ,' /  _  \  /  _  \   ,'/  
+         \   `'  / \  `'  / \  `.' /   
+          `.___,'   `.__,'   `.__,'    
+                                       
+                                       
+                                       
+                                       
+                                       
+DEPIC_END
+DAM 15+12d6
+HP 300+70d6
+ABIL SMART TUNNEL
+END
+
+BEGIN MONSTER
+NAME Red Dragon
+SYMB D
+COLOR RED
+DESC
+A red dragon.  Quite possibly the scariest thing you've ever seen.
+.
+SPEED 40+3d5
+DEPICTION
+            ______________             
+      ,===:'.,            `-._         
+           `:.`---.__         `-._     
+             `:.     `--.         `.   
+               \.        `.         `. 
+        (,,(,   \.         `.   ____,-.
+    (,'     `/   \.   ,--.___`.'       
+,  ,'  ,--.  `,   \.;'         `       
+ `{D, {    \  :    \;                  
+   V,,'    /  /    //                  
+   j;;    /  ,' ,-//.    ,---.      ,  
+   \;'   /  ,' /  _  \  /  _  \   ,'/  
+         \   `'  / \  `'  / \  `.' /   
+          `.___,'   `.__,'   `.__,'    
+                                       
+                                       
+                                       
+                                       
+                                       
+DEPIC_END
+DAM 20+12d9
+HP 500+100d6
+ABIL SMART TUNNEL TELE
+END
+
+BEGIN MONSTER
+NAME Macho Bro
+SYMB B
+COLOR YELLOW
+DESC
+Look at this guy.  Who does he think he is?  How did he even get here?
+You might help him get back to the beach if he wasn't so rude.
+.
+SPEED 7+0d4
+DEPICTION
+                    .#####.            
+                    |_____|            
+                   (\#/ \#/)           
+                    |  U  |            
+                    \  _  /            
+                     \___/             
+                 .---'   `---.         
+                /  #########  \        
+               /  |####|####|  \       
+              /  /\ ####### /\  \      
+             (  \  \  ###  /  /  )     
+              \  \  \_###_/  /  /      
+               \  \ |\   /| /  /       
+                'uuu| \_/ |uuu'        
+                    |  |  |            
+                    |  |  |            
+                    |  |  |            
+                    |  |  |            
+                    |  |  |            
+DEPIC_END
+DAM 3+1d4
+HP 12+2d6
+ABIL ERRATIC SMART
+END
+
+BEGIN MONSTER
+NAME Jabberwock
+SYMB J
+COLOR MAGENTA
+DESC
+What the heck is this thing?  You must be dreaming!  A sword would probably
+help in this situation.
+.
+SPEED 60+5d5
+DEPICTION
+      ,--._                      _     
+      "'.  '.                  ,';     
+         )   '.              ,' /      
+       _/      '.          ,'   '.     
+     -"__        '.;  /  ,`'    ,-`    
+         \        /  ( ,===.  _`. )    
+         /__      `.__//.' \\/_.-`     
+            '-,._.-    \ \_/\\ ,-.     
+                \.-     /  \_\\/||     
+               _/\\    :o o :-'/;.`.   
+            _,";-,;|   :/"\ : // ||))  
+       _..."((|_//||-.._\"//  `` ;;''  
+      /,-----"||" ''    \`._           
+     //      ,'|         `-.`-..._     
+    ::     ,','             '.__.=     
+    ::     |||  _                      
+     \\_   ""   ))                     
+      \_"--....';                      
+        '""---"'                       
+DEPIC_END
+DAM 100+30d3
+HP 3000+1000d6
+ABIL SMART TUNNEL TELE
+END
+
+
+BEGIN MONSTER
+NAME Bat
+SYMB b
+COLOR WHITE
+DESC
+A small bat.  It's quick but not too intimidating.
+.
+SPEED 7+0d4
+DEPICTION
+                                       
+       ._.                  _.____.    
+        ) \.              /    .(      
+        )  |            .'   .(        
+        ). ).          .'  .(          
+          ) |.        .'  (            
+          ). ;      ./  .(             
+           ) |      )  (               
+           ).;      :.(                
+            )|    .|.;                 
+            .^--^./ (.                 
+            ;0..0;   \                 
+             'vv'_.:_.;                
+                  m  M                 
+                                       
+                                       
+                                       
+                                       
+                                       
+DEPIC_END
+DAM 2+4d4
+HP 12+2d6
+ABIL ERRATIC
+END
+
+
+BEGIN MONSTER
+NAME Giant Spider
+SYMB S
+COLOR GREEN
+DESC
+Something out of a nightmare.  I wouldn't want to come across one of these
+in a dark dungeon.. Oh wait.
+.
+SPEED 8+2d4
+DEPICTION
+         ^^         |         ^^       
+         ::         |         ::       
+  ^^     ::         |         ::     ^^
+  ::     ::         |         ::     ::
+   ::     ::        |        ::     :: 
+     ::    ::       |       ::    ::   
+       ::    ::   _/~\_   ::    ::     
+         ::   :::/     \:::   ::       
+           :::::(       ):::::         
+                 \ ___ /               
+            :::::/`   `\:::::          
+          ::    ::\o o/::    ::        
+        ::     ::  :":  ::     ::      
+      ::      ::   ` `   ::      ::    
+     ::      ::           ::      ::   
+    ::      ::             ::      ::  
+    ^^      ::             ::      ^^  
+            ::             ::          
+            ^^             ^^          
+DEPIC_END
+DAM 2+4d4
+HP 12+2d6
+ABIL ERRATIC SMART
+END
+
+BEGIN MONSTER
+NAME Creepy Angel
+SYMB A
+COLOR WHITE
+DESC
+A glorious angel, but something just seems a little off about his face.
+.
+SPEED 20+1d4
+DEPICTION
+                    ----o-             
+   _____________   %%% , ,%_________   
+  (___________,,)  %c    >) ,________) 
+     (_________,,)  )   =  ,______)    
+          (_____,,)/ _/__,,____)       
+             / \   \__/ /\             
+            /\ |        \/\            
+           /__\|'   ,   /  \,          
+          < -  '====o==,  /_\          
+         /    /`       |\ __ \         
+        /__,_/    |  _/, \____\        
+        //   |     \/  \    \\         
+      _( \   \      \  \   _/ \        
+       //|    \     \  \    |/|        
+              < `  _\ -)               
+             /    |_/ |                
+            |    / |_/                 
+           /-_,  ' /|                  
+           \/ \_,--.,                  
+DEPIC_END
+DAM 5+4d4
+HP 12+2d6
+ABIL SMART TELE
+END
+
+BEGIN MONSTER
+NAME Centaur
+SYMB C
+COLOR CYAN
+DESC
+Wow this guy is fast.  He's got arrows and his hooves look like they
+would hurt.
+.
+SPEED 30+2d4
+DEPICTION
+           =*===                       
+         $$- - $$$                     
+         $ <    D$$                    
+         $ -   $$$                     
+   ,     $$$$  |                       
+  ///; ,---' _ |----.                  
+   \ )(           /  )                 
+   | \/ \.   '  _.|  \              $  
+   |  \ /(   /    /\_ \          $$$$$ 
+    \ /  (       / /  )         $$$ $$$
+         (  ,   /_/ ,`_,-----.,$$  $$$ 
+         |   <----|  \---##     \   $$ 
+         /         \\\           |    $
+        '   '                    |     
+        |                 \      /     
+        /  \_|    /______,/     /      
+       /   / |   /    |   |    /       
+      (   /--|  /.     \  (\  (_       
+       `----,( ( _\     \ / / ,/       
+DEPIC_END
+DAM 40+4d4
+HP 70+2d6
+ABIL SMART TELE
+END
+
+BEGIN MONSTER
+NAME Junior Fire Demon
+SYMB d
+COLOR RED
+DESC
+This is a junior fire demon.  He--or is it she?  You can't tell for sure--
+looks like... it should still be in demon school.  The demons are 
+putting them in the dungeons young these days.  It looks a little unsure of
+itself.  You have a hard time feeling intimidated.
+.
+SPEED 7+1d4
+DEPICTION
+        *                       *      
+           *                 *         
+          )       (\___/)     (        
+       * /(       \ (. .)     )\ *     
+         # )      c\   >'    ( #       
+          '         )-_/      '        
+        \\|,    ____| |__    ,|//      
+          \ )  (  `  ~   )  ( /        
+           #\ / /| . ' .) \ /#         
+           | \ / )   , / \ / |         
+            \,/ ;;,,;,;   \,/          
+             _,#;,;;,;,                
+            /,i;;;,,;#,;               
+           //  %;;,;,;;,;              
+          ((    ;#;,;%;;,,             
+         _//     ;,;; ,#;,             
+        /_)      #,;    ))             
+                //      \|_            
+                \|_      |#\           
+DEPIC_END
+DAM 15+2d4
+HP 12+2d6
+ABIL SMART
+END
+
+BEGIN MONSTER
+NAME Minotaur
+SYMB M
+COLOR YELLOW
+DESC
+A fearsome looking minotaur.  He's got an axe, a shield, and horns.  This
+guy will probably be tough.
+.
+SPEED 5+0d4
+DEPICTION
+                    (    )             
+                   ((((()))            
+                   |o\ /o)|            
+                   ( (  _')            
+                    (._.  /\__         
+                   ,\___,/ '  ')       
+     '.,_,,       (  .- .   .    )     
+      \   \\     ( '        )(    )    
+       \   \\    \.  _.__ ____( .  |   
+        \  /\\   .(   .'  /\  '.  )    
+         \(  \\.-' ( /    \/    \)     
+          '  ()) _'.-|/\/\/\/\/\|      
+              '\\ .( |\/\/\/\/\/|      
+                '((  \    /\    /      
+                ((((  '.__\/__.')      
+                 ((,) /   ((()   )     
+                  "..-,  (()("   /     
+                   _//.   ((() ."      
+                 //,/"     ((( ',      
+DEPIC_END
+DAM 15+4d5
+HP 30+1d5
+ABIL SMART TUNNEL
+END
+
+BEGIN MONSTER
+NAME Unicorn
+SYMB U
+COLOR WHITE
+DESC
+An oddly blocky looking unicorn.  It must not get out much.
+.
+SPEED 20+1d5
+DEPICTION
+                                    /  
+                         __       //   
+                         -\= \=\ //    
+                       --=_\=---//=--  
+                     -_==/  \/ //\/--  
+                      ==/   /O   O\==--
+         _ _ _ _     /_/    \  ]  /--  
+        /\ ( (- \    /       ] ] ]==-  
+       (\ _\_\_\-\__/     \  (,_,)--   
+      (\_/                 \     \-    
+      \/      /       (   ( \  ] /)    
+      /      (         \   \_ \./ )    
+      (       \         \      )  \    
+      (       /\_ _ _ _ /---/ /\_  \   
+       \     / \     / ____/ /   \  \  
+        (   /   )   / /  /__ )   (  )  
+        (  )   / __/ '---`       / /   
+        \  /   \ \             _/ /    
+        ] ]     )_\_         /__\/     
+DEPIC_END
+DAM 10+6d4
+HP 20+3d6
+ABIL ERRATIC TELE
+END
+
+BEGIN MONSTER
+NAME Floating Brain
+SYMB b
+COLOR GREEN
+DESC
+A brainspawn from the Infosphere.  Has the ability to make people more stupider.
+.
+SPEED 10+2d5
+DEPICTION
+                                       
+                                       
+                _---~~(~~-_.           
+              _{        )   )          
+            ,   ) -~~- ( ,-' )_        
+           (  `-,_..`., )-- '_,)       
+          ( ` _)  (  -~( -_ `,  }      
+          (_-  _  ~_-~~~~`,  ,' )      
+            `~ -^(    __;-,((()))      
+                  ~~~~ {_ -_(())       
+                         `\  }         
+                           { }         
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+DEPIC_END
+DAM 10+1d15
+HP 12+1d6
+ABIL SMART TELE
+END
+
+BEGIN MONSTER
+NAME Tribesman
+SYMB t
+COLOR YELLOW
+DESC
+Why is this guy even here?  He must be a long way from home.
+.
+SPEED 7+1d4
+DEPICTION
+                                       
+                                       
+               www                     
+              /n n\        /\          
+              |/^\|       /  \         
+              | , |       ^||^         
+               \_/         ||          
+               _U_         ||          
+             /`   `''-----'P3          
+            / |. .|''-----"||          
+            \'|   |        ||          
+             \|   |        ||          
+              E   |        ||          
+             /#####\       ||          
+             /#####\       ||          
+               |||         ||          
+               |||         ||          
+               |||         ||          
+               |||         ||          
+DEPIC_END
+DAM 2+3d4
+HP 40+2d6
+ABIL SMART
+END
+
