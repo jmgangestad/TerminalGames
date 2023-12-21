@@ -1,13 +1,15 @@
 #include <cstdio>
-#include <ncurses.h>
-#include <unistd.h>
+#include <curses.h>
+//#include <ncurses.h>
+//#include <unistd.h>
 #include <vector>
 #include <ctime>
 #include <cstdlib>
 #include "ship_class.h"
 #include "asteroids.h"
 #include "projectile_class.h"
-#include <sys/ioctl.h>
+//#include <sys/ioctl.h>
+#include <Windows.h>
 
 using namespace std;
 
@@ -24,9 +26,6 @@ int invincible = 0;
 int game_over = 0;
 
 
-
-
-
 ship_class* ship;
 asteroid_class** asteroid;
 projectile_class** projectile;
@@ -35,11 +34,20 @@ void init_window(){
   int i;
   srand(time(NULL));
 
+  CONSOLE_SCREEN_BUFFER_INFO csbi;
+  int columns, rows;
+  GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
+  columns = csbi.srWindow.Right - csbi.srWindow.Left + 1;
+  rows = csbi.srWindow.Bottom - csbi.srWindow.Top + 1;
+  X_MAX = columns;
+  Y_MAX = rows;
+  /*
   struct winsize w;
   ioctl(0, TIOCGWINSZ, &w);
 
   X_MAX = w.ws_col;
   Y_MAX = w.ws_row;
+  */
 
   initscr();
   //raw();
@@ -47,7 +55,7 @@ void init_window(){
   curs_set(0);
   keypad(stdscr, TRUE);
   nodelay(stdscr, TRUE);
-  set_escdelay(25);
+  //set_escdelay(25);
 
   for(i = 0; i < X_MAX; i++){
     mvprintw(0,i,"%c",'=');
