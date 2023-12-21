@@ -1,6 +1,6 @@
 #include <cstdio>
-#include <ncurses.h>
-#include <unistd.h>
+#include <curses.h>
+//#include <unistd.h>
 #include <vector>
 #include <ctime>
 #include <cstdlib>
@@ -41,7 +41,7 @@ void init_window(){
   curs_set(0);
   keypad(stdscr, TRUE);
   nodelay(stdscr, TRUE);
-  set_escdelay(25);
+  //set_escdelay(25);
 
   for(i = 0; i < 80; i++){
     mvprintw(0,i,"%c",'=');
